@@ -12,11 +12,10 @@
         {
             "handle": "filesystem"
         },
-        
         {
             "src": "/(.*)",
             "status": 404,
-            "dest": "/"
+            "dest": "/other-404.html"
         }
     ]
 }
