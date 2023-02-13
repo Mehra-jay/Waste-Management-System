@@ -6,10 +6,7 @@
             "use": "@now/node"
         }
     ],
-    "rewrites": [
-        {
-            "source": "/(.*)",
-            "destination": "/"
-        }
-    ]
+  {
+  "rewrites": [{ "source": "/api/(.*)", "destination": "/api" }]
+  }
 }
